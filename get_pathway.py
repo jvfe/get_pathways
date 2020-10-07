@@ -39,7 +39,7 @@ def download_pathway(url, download_path):
 def main():
 
     # Tem que ser a full path, não sei por que.
-    download_path = "/home/jvfe/Documentos/Pesquisa/minor_contribs/get_pathways/results"
+    download_path = "/get_pathways/results"
 
     with open("data/codes.txt", "r") as codes:
         pathways = codes.read().splitlines()
